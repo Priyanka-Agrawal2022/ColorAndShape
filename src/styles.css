@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+
+.center {
+  transform: translate(43vw, 30vh);
+}
+
+#app {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(95, 39, 199);
+  border-radius: 50%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 0.5rem;
+  display: block;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 2px;
+}
+
+button:hover {
+  box-shadow: 0 0 6px grey;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid white;
+}
